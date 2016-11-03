@@ -27,7 +27,10 @@ namespace Vsite.CSharp
             }
 
             // TODO: Dodati petlju koja će ispisati član X za svaki element kolekcije lista.
-
+            foreach (RefTip r in lista)
+            {
+                Console.WriteLine(r.X);
+            }
         }
 
         public static void DodavanjeStruktureUArrayList()
@@ -42,7 +45,10 @@ namespace Vsite.CSharp
             }
 
             // TODO: Dodati petlju koja će ispisati član X za svaki element kolekcije lista.
-
+            foreach (VrijednTip r in lista)
+            {
+                Console.WriteLine(r.X);
+            }
         }
 
 
